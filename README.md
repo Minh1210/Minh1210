@@ -1,99 +1,128 @@
 <div align="center">
 
-  <!-- CYBERSECURITY SERPENT HERO BANNER -->
+  <!-- CYBERSECURITY SERPENT HERO BANNER (Full Raw URL ensures 100% reliable rendering on GitHub) -->
   <a href="https://github.com/Minh1210">
-    <img src="assets/banner.svg" alt="secretzot - Cybersecurity & Pentester" width="100%" />
+    <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/banner.svg" alt="secretzot - No Money No Happy • Biết đủ sẽ hạnh phúc" width="100%" />
   </a>
 
   <br/><br/>
 
-  <!-- TYPING BADGE / SECURITY TAGLINE -->
+  <!-- DYNAMIC TYPING SLOGAN -->
   <a href="https://github.com/Minh1210">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&duration=3200&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=Binary+Exploitation+(Pwn)+%E2%80%A2+ROP+%E2%80%A2+Heap+Overflow;Reverse+Engineering+(Rev)+%E2%80%A2+IDA+Pro+%E2%80%A2+Ghidra;Web+Security+%26+Penetration+Testing;Handle%3A+secretzot+%E2%80%A2+Exploit.+Analyze.+Pwn." alt="Typing Cybersecurity Tagline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=21&duration=2800&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=No+Money+No+Happy;%E2%98%AF+Bi%E1%BA%BFt+%C4%91%E1%BB%A7+s%E1%BA%BD+h%E1%BA%A1nh+ph%C3%BAc;PWN+%E2%80%A2+Binary+Exploitation+%26+Heap;REV+%E2%80%A2+Reverse+Engineering+%26+IDA;WEB+%E2%80%A2+Web+Pentest+%26+0-day+Research" alt="secretzot Philosophy" />
   </a>
 
   <p align="center">
     <a href="https://github.com/Minh1210"><img src="https://img.shields.io/badge/Handle-secretzot-180a2b?style=for-the-badge&logo=github&logoColor=f43f5e" alt="secretzot"/></a>
-    <img src="https://img.shields.io/badge/Specialization-Pwn%20%7C%20Rev%20%7C%20Web-f43f5e?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Specialization"/>
-    <img src="https://img.shields.io/badge/Status-Hunting%200--days-10b981?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Status"/>
+    <img src="https://img.shields.io/badge/PWN-Binary%20Exploit-f43f5e?style=for-the-badge&logo=gnu&logoColor=white" alt="PWN"/>
+    <img src="https://img.shields.io/badge/REV-Reverse%20Engineering-a855f7?style=for-the-badge&logo=nsa&logoColor=white" alt="REV"/>
+    <img src="https://img.shields.io/badge/WEB-Web%20Security-38bdf8?style=for-the-badge&logo=portswigger&logoColor=white" alt="WEB"/>
   </p>
 
-  <img src="assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-
-</div>
-
-## 🐍 About Me • `whoami`
-
-```bash
-[root@secretzot ~]# id
-uid=0(secretzot) gid=0(root) groups=0(root),1337(pwn),2048(rev),4096(web)
-```
-
-> *"Like a venomous viper striking from the shadows, I dissect binaries byte by byte, discover hidden vectors, and exploit weaknesses before they can be defended."*
-
-- 🎯 **Primary Disciplines**:
-  - 💥 **PWN (Binary Exploitation)**: Buffer Overflow, ROP Chain (Return-Oriented Programming), Heap Exploitation, Shellcoding, Format String, SROP, Kernel exploitation.
-  - 🔍 **REV (Reverse Engineering)**: Static/Dynamic analysis with IDA Pro & Ghidra, Anti-debugging bypass, Malware unpacking, Obfuscation deobfuscation, Firmware reversing.
-  - 🌐 **WEB Security & Pentest**: Advanced SQLi, SSRF, IDOR, XSS, Deserialization vulnerabilities, Race Conditions, API & Cloud Pentesting.
-- 🏴‍☠️ **CTF & Platforms**: Active player in CTF competitions, Hack The Box & TryHackMe.
-- ⚡ **Security Philosophy**: *If it executes code, it can be manipulated. If it trusts input, it can be exploited.*
-
-<br/>
-
-<div align="center">
-  <img src="assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-</div>
-
-## ⚡ Vũ Khí Tác Chiến • Security Arsenal
-
-<div align="center">
-
-| Chuyên môn | Công cụ & Vũ khí chuyên dụng |
-| :--- | :--- |
-| **💥 PWN (Binary Exploitation)** | <img src="https://img.shields.io/badge/GDB_(pwndbg/GEF)-333333?style=for-the-badge&logo=gnu&logoColor=red"/> <img src="https://img.shields.io/badge/Pwntools-FF4081?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/x86%2Fx64_Assembly-316192?style=for-the-badge"/> <img src="https://img.shields.io/badge/ROPgadget-673AB7?style=for-the-badge"/> <img src="https://img.shields.io/badge/C%20%2F%20C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> |
-| **🔍 REV (Reverse Engineering)** | <img src="https://img.shields.io/badge/IDA_Pro-795548?style=for-the-badge"/> <img src="https://img.shields.io/badge/Ghidra-000000?style=for-the-badge&logo=nsa&logoColor=white"/> <img src="https://img.shields.io/badge/Binary_Ninja-F4511E?style=for-the-badge"/> <img src="https://img.shields.io/badge/Radare2-4CAF50?style=for-the-badge"/> <img src="https://img.shields.io/badge/x64dbg-009688?style=for-the-badge"/> |
-| **🌐 WEB Security & Pentest** | <img src="https://img.shields.io/badge/Burp_Suite_Pro-FF6633?style=for-the-badge&logo=portswigger&logoColor=white"/> <img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=for-the-badge&logo=owasp&logoColor=white"/> <img src="https://img.shields.io/badge/SQLMap-E53935?style=for-the-badge"/> <img src="https://img.shields.io/badge/Nmap-002B36?style=for-the-badge"/> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/> |
-| **🐍 Scripting & Automation** | <img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Bash_%2F_Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> |
-| **🛡️ Tactical OS & Labs** | <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/> <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=archlinux&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> |
+  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
 
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
+
+> ### ⚡ *"No Money No Happy"* &nbsp;&nbsp;•&nbsp;&nbsp; ☯️ *"Biết đủ sẽ hạnh phúc"*
+
 </div>
 
-## 🏴‍☠️ Research & Tactical Projects
+<br/>
+
+## 🎯 Chuyên Môn Tác Chiến • Core Disciplines
+
+- 💥 **PWN (Binary Exploitation)**:
+  - Buffer Overflow, ROP Gadgets Chain, Ret2libc, Heap Exploitation (Fastbin, Tcache, Unsorted Bin), SROP, Format String, Shellcoding.
+  - Vượt các cơ chế bảo vệ: ASLR, NX, Stack Canary, PIE, RELRO.
+- 🔍 **REV (Reverse Engineering)**:
+  - Dịch ngược & phân tích tĩnh/động mã nhị phân ELF (Linux) và PE (Windows) trên **IDA Pro**, **Ghidra**, **Binary Ninja**, **x64dbg**.
+  - Phân tích thuật toán mã hóa tùy biến, giải mã unpack malware, bypass anti-debugging & anti-VM techniques.
+- 🌐 **WEB Security & Penetration Testing**:
+  - Khai thác chuyên sâu theo chuẩn OWASP Top 10: Advanced SQL Injection, Blind SSRF, Insecure Deserialization, IDOR, Race Condition, Business Logic Flaws.
+  - Kiểm thử xâm nhập Web Application & RESTful API với **Burp Suite Professional**.
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
+</div>
+
+## ⚡ Vũ Khí & Công Cụ • Security Arsenal
+
+<div align="center">
+
+### 💥 Binary Exploitation (Pwn)
+<img src="https://img.shields.io/badge/GDB_(pwndbg%20%2F%20GEF)-1e092b?style=for-the-badge&logo=gnu&logoColor=f43f5e"/>&nbsp;
+<img src="https://img.shields.io/badge/Pwntools-1e092b?style=for-the-badge&logo=python&logoColor=ec4899"/>&nbsp;
+<img src="https://img.shields.io/badge/ROPgadget-1e092b?style=for-the-badge&logo=sublimetext&logoColor=c084fc"/>&nbsp;
+<img src="https://img.shields.io/badge/x86%20%2F%20x64_ASM-1e092b?style=for-the-badge&logo=assemblyscript&logoColor=38bdf8"/>&nbsp;
+<img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B-1e092b?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+
+<br/>
+
+### 🔍 Reverse Engineering (Rev)
+<img src="https://img.shields.io/badge/IDA_Pro-1b0826?style=for-the-badge&logo=hexo&logoColor=f43f5e"/>&nbsp;
+<img src="https://img.shields.io/badge/Ghidra-1b0826?style=for-the-badge&logo=gnometerminal&logoColor=a855f7"/>&nbsp;
+<img src="https://img.shields.io/badge/Binary_Ninja-1b0826?style=for-the-badge&logo=visualstudio&logoColor=c084fc"/>&nbsp;
+<img src="https://img.shields.io/badge/Radare2-1b0826?style=for-the-badge&logo=powershell&logoColor=38bdf8"/>&nbsp;
+<img src="https://img.shields.io/badge/x64dbg-1b0826?style=for-the-badge&logo=windows&logoColor=10b981"/>
+
+<br/>
+
+### 🌐 Web Security & Pentest
+<img src="https://img.shields.io/badge/Burp_Suite_Pro-200918?style=for-the-badge&logo=portswigger&logoColor=ff6633"/>&nbsp;
+<img src="https://img.shields.io/badge/OWASP_Top_10-200918?style=for-the-badge&logo=owasp&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/SQLMap-200918?style=for-the-badge&logo=databricks&logoColor=f43f5e"/>&nbsp;
+<img src="https://img.shields.io/badge/Nmap-200918?style=for-the-badge&logo=wireshark&logoColor=38bdf8"/>&nbsp;
+<img src="https://img.shields.io/badge/Python_3-200918?style=for-the-badge&logo=python&logoColor=fde047"/>
+
+<br/>
+
+### 🛡️ Tactical OS & Environment
+<img src="https://img.shields.io/badge/Kali_Linux-0d0618?style=for-the-badge&logo=kalilinux&logoColor=white"/>&nbsp;
+<img src="https://img.shields.io/badge/Arch_Linux-0d0618?style=for-the-badge&logo=archlinux&logoColor=38bdf8"/>&nbsp;
+<img src="https://img.shields.io/badge/Docker-0d0618?style=for-the-badge&logo=docker&logoColor=38bdf8"/>&nbsp;
+<img src="https://img.shields.io/badge/Bash_Shell-0d0618?style=for-the-badge&logo=gnubash&logoColor=10b981"/>
+
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
+</div>
+
+## 🏴‍☠️ Research & Tactical Labs
 
 <div align="center">
   <table>
     <tr>
-      <td width="33%" valign="top" style="background:#0d061a; border: 1px solid #f43f5e; border-radius: 12px; padding: 16px;">
-        <h3 align="center">💥 Binary Exploits &amp; Pwn</h3>
-        <p align="center"><b>ROP Chaining &amp; Heap Exploitation</b></p>
-        <p align="center">Kho lưu trữ mã khai thác lỗ hổng nhị phân, shellcode crafting, kỹ thuật bypass ASLR, NX, Canary và PIE.</p>
+      <td width="33%" valign="top" style="background:#0a0412; border: 1px solid #f43f5e; border-radius: 14px; padding: 18px;">
+        <h3 align="center">💥 Binary Exploitation (Pwn)</h3>
+        <p align="center"><b>ROP Chain &amp; Heap Exploitation</b></p>
+        <p align="center">Kho lưu trữ mã khai thác nhị phân, bypass ASLR, Canary, NX và phân tích heap memory.</p>
         <p align="center">
-          <img src="https://img.shields.io/badge/Pwn-GDB%20%7C%20pwntools-f43f5e?style=flat-square"/>
-          <img src="https://img.shields.io/badge/ASM-x86__64-38bdf8?style=flat-square"/>
+          <img src="https://img.shields.io/badge/PWN-GDB%20%2F%20pwntools-f43f5e?style=flat-square"/>
         </p>
       </td>
-      <td width="33%" valign="top" style="background:#0d061a; border: 1px solid #a855f7; border-radius: 12px; padding: 16px;">
-        <h3 align="center">🔍 Reverse Engineering Lab</h3>
-        <p align="center"><b>Binary Decompilation &amp; Crackmes</b></p>
-        <p align="center">Phân tích chuyên sâu cấu trúc tệp ELF/PE, giải mã thuật toán mã hóa tùy biến và kỹ thuật lách anti-debugging.</p>
+      <td width="33%" valign="top" style="background:#0a0412; border: 1px solid #a855f7; border-radius: 14px; padding: 18px;">
+        <h3 align="center">🔍 Reverse Engineering (Rev)</h3>
+        <p align="center"><b>Decompilation &amp; Crackmes</b></p>
+        <p align="center">Dịch ngược cấu trúc tệp ELF/PE, phân tích logic thuật toán và kỹ thuật chống gỡ lỗi (anti-debug).</p>
         <p align="center">
-          <img src="https://img.shields.io/badge/Rev-Ghidra%20%7C%20IDA-a855f7?style=flat-square"/>
-          <img src="https://img.shields.io/badge/Analysis-Static%2FDynamic-ec4899?style=flat-square"/>
+          <img src="https://img.shields.io/badge/REV-IDA%20%2F%20Ghidra-a855f7?style=flat-square"/>
         </p>
       </td>
-      <td width="33%" valign="top" style="background:#0d061a; border: 1px solid #38bdf8; border-radius: 12px; padding: 16px;">
-        <h3 align="center">🌐 Web Pentest &amp; CTF Writeups</h3>
+      <td width="33%" valign="top" style="background:#0a0412; border: 1px solid #38bdf8; border-radius: 14px; padding: 18px;">
+        <h3 align="center">🌐 Web Pentest &amp; CTF</h3>
         <p align="center"><b>Offensive Web &amp; Security Audits</b></p>
-        <p align="center">Tổng hợp writeup các lỗ hổng Web nghiêm trọng (SSRF, Deserialization, SQLi, Auth Bypass) và CTF challenges.</p>
+        <p align="center">Thực chiến khai thác lỗ hổng Web nghiêm trọng: SSRF, Deserialization, SQLi, IDOR và CTF writeups.</p>
         <p align="center">
-          <img src="https://img.shields.io/badge/Web-BurpSuite%20Pro-ff6633?style=flat-square"/>
-          <img src="https://img.shields.io/badge/Vulnerability-OWASP-00dc82?style=flat-square"/>
+          <img src="https://img.shields.io/badge/WEB-Burp%20Suite%20Pro-38bdf8?style=flat-square"/>
         </p>
       </td>
     </tr>
@@ -103,10 +132,10 @@ uid=0(secretzot) gid=0(root) groups=0(root),1337(pwn),2048(rev),4096(web)
 <br/>
 
 <div align="center">
-  <img src="assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
+  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
 
   <p>
-    ⚡ <i>"In a world built on logic, the greatest weapon is understanding how to break it."</i> ⚡<br/>
-    <b>secretzot • Cybersecurity Specialist &amp; Pentester • All Systems Compromised.</b>
+    ⚡ <b>"No Money No Happy"</b> &nbsp;&nbsp;|&nbsp;&nbsp; ☯️ <b>"Biết đủ sẽ hạnh phúc"</b><br/>
+    <b>secretzot • Cybersecurity Specialist • Pwn • Rev • Web</b>
   </p>
 </div>
