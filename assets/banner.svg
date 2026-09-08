@@ -1,64 +1,54 @@
-<svg width="100%" height="100%" viewBox="0 0 920 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" height="100%" viewBox="0 0 940 370" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradients -->
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0617"/>
-      <stop offset="50%" stop-color="#120924"/>
-      <stop offset="100%" stop-color="#07030e"/>
+      <stop offset="0%" stop-color="#06030b"/>
+      <stop offset="40%" stop-color="#0d0618"/>
+      <stop offset="80%" stop-color="#14061a"/>
+      <stop offset="100%" stop-color="#050208"/>
     </linearGradient>
 
-    <radialGradient id="portal-glow" cx="72%" cy="50%" r="45%">
-      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.4"/>
-      <stop offset="40%" stop-color="#8b5cf6" stop-opacity="0.25"/>
-      <stop offset="70%" stop-color="#4c1d95" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#0b0617" stop-opacity="0"/>
-    </radialGradient>
-
-    <radialGradient id="ring-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="70%" stop-color="#c084fc" stop-opacity="0.9"/>
-      <stop offset="85%" stop-color="#f43f5e" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Serpent Gradient -->
-    <linearGradient id="snake-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="25%" stop-color="#f0abfc"/>
-      <stop offset="60%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#7e22ce"/>
+    <!-- Serpent Scales & Body Gradient -->
+    <linearGradient id="snake-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a163e"/>
+      <stop offset="30%" stop-color="#180c25"/>
+      <stop offset="70%" stop-color="#0e0517"/>
+      <stop offset="100%" stop-color="#2b0a1d"/>
     </linearGradient>
 
-    <linearGradient id="snake-stroke" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#fae8ff"/>
+    <linearGradient id="cyber-spine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
       <stop offset="40%" stop-color="#e879f9"/>
       <stop offset="80%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
 
-    <!-- Text Gradient -->
-    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Glowing Text Gradient -->
+    <linearGradient id="name-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#f5d0fe"/>
-      <stop offset="100%" stop-color="#d8b4fe"/>
+      <stop offset="40%" stop-color="#fce7f3"/>
+      <stop offset="80%" stop-color="#f472b6"/>
+      <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
 
-    <linearGradient id="pill-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.05"/>
-    </linearGradient>
+    <radialGradient id="portal-aurora" cx="72%" cy="48%" r="48%">
+      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.25"/>
+      <stop offset="35%" stop-color="#8b5cf6" stop-opacity="0.2"/>
+      <stop offset="70%" stop-color="#3b0764" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#06030b" stop-opacity="0"/>
+    </radialGradient>
 
-    <!-- Glow Filter -->
-    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="6" result="blur" />
+    <!-- Filters -->
+    <filter id="crimson-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
+    <filter id="soft-neon" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -66,217 +56,241 @@
     </filter>
 
     <style>
-      @keyframes pulse-ring {
-        0%, 100% { opacity: 0.65; transform: scale(1); }
-        50% { opacity: 0.95; transform: scale(1.025); }
-      }
-      @keyframes float-serpent {
+      @keyframes slither-flow {
         0%, 100% { transform: translateY(0px) rotate(0deg); }
-        50% { transform: translateY(-7px) rotate(0.8deg); }
+        50% { transform: translateY(-8px) rotate(1.2deg); }
       }
-      @keyframes shimmer {
-        0%, 100% { opacity: 0.35; }
-        50% { opacity: 0.85; }
+      @keyframes pulse-energy {
+        0% { stroke-dashoffset: 1200; }
+        100% { stroke-dashoffset: 0; }
       }
-      @keyframes pulse-dot {
-        0%, 100% { transform: scale(1); opacity: 1; }
-        50% { transform: scale(1.3); opacity: 0.5; }
+      @keyframes tongue-flick {
+        0%, 80%, 100% { transform: scale(1); opacity: 0.9; }
+        85% { transform: scale(1.25) translateX(4px); opacity: 1; }
+        90% { transform: scale(0.9); opacity: 0.7; }
       }
-      .glow-ring { transform-origin: 675px 180px; animation: pulse-ring 6s ease-in-out infinite; }
-      .floating-snake { transform-origin: 675px 180px; animation: float-serpent 7s ease-in-out infinite; }
-      .star-shimmer { animation: shimmer 4s ease-in-out infinite; }
-      .online-dot { transform-origin: 92px 308px; animation: pulse-dot 2s ease-in-out infinite; }
-      .fira-mono { font-family: 'SF Mono', 'Fira Code', 'Courier New', monospace; }
-      .sans-title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+      @keyframes eye-glow {
+        0%, 100% { opacity: 0.8; filter: drop-shadow(0 0 3px #f43f5e); }
+        50% { opacity: 1; filter: drop-shadow(0 0 9px #ef4444); }
+      }
+      @keyframes radar-sweep {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      .serpent-actor { transform-origin: 700px 185px; animation: slither-flow 6s ease-in-out infinite; }
+      .cyber-pulse-line { stroke-dasharray: 80 400; animation: pulse-energy 4s linear infinite; }
+      .tongue-anim { transform-origin: 605px 75px; animation: tongue-flick 3s ease-in-out infinite; }
+      .viper-eye { animation: eye-glow 2.5s ease-in-out infinite; }
+      .radar-spin { transform-origin: 700px 185px; animation: radar-sweep 24s linear infinite; }
+      .fira { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace; }
+      .title-sans { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
     </style>
   </defs>
 
-  <!-- Background Canvas -->
-  <rect width="920" height="360" rx="16" fill="url(#bg-grad)"/>
-  <rect width="920" height="360" rx="16" stroke="url(#snake-stroke)" stroke-width="1.2" stroke-opacity="0.35"/>
+  <!-- Background Base -->
+  <rect width="940" height="370" rx="16" fill="url(#bg-grad)"/>
+  <rect width="940" height="370" rx="16" stroke="#9333ea" stroke-width="1.2" stroke-opacity="0.3"/>
 
-  <!-- Radial Cosmic Glow behind Snake -->
-  <rect x="350" y="0" width="570" height="360" rx="16" fill="url(#portal-glow)"/>
-
-  <!-- Subtle Grid Lines (Cyber Aesthetic) -->
-  <g opacity="0.07" stroke="#ffffff" stroke-width="0.8">
-    <line x1="40" y1="0" x2="40" y2="360" />
-    <line x1="120" y1="0" x2="120" y2="360" />
-    <line x1="200" y1="0" x2="200" y2="360" />
-    <line x1="280" y1="0" x2="280" y2="360" />
-    <line x1="0" y1="70" x2="920" y2="70" />
-    <line x1="0" y1="150" x2="920" y2="150" />
-    <line x1="0" y1="230" x2="920" y2="230" />
-    <line x1="0" y1="310" x2="920" y2="310" />
+  <!-- Cyber Hex Grid Pattern -->
+  <g opacity="0.05" stroke="#e2e8f0" stroke-width="0.8">
+    <line x1="0" y1="40" x2="940" y2="40" />
+    <line x1="0" y1="120" x2="940" y2="120" />
+    <line x1="0" y1="200" x2="940" y2="200" />
+    <line x1="0" y1="280" x2="940" y2="280" />
+    <line x1="60" y1="0" x2="60" y2="370" />
+    <line x1="180" y1="0" x2="180" y2="370" />
+    <line x1="300" y1="0" x2="300" y2="370" />
+    <line x1="420" y1="0" x2="420" y2="370" />
   </g>
 
-  <!-- Constellation Stars -->
-  <g class="star-shimmer" fill="#e9d5ff">
-    <circle cx="95" cy="45" r="1.2" opacity="0.6"/>
-    <circle cx="210" cy="85" r="1.5" opacity="0.8"/>
-    <circle cx="340" cy="38" r="1" opacity="0.5"/>
-    <circle cx="460" cy="110" r="1.8" opacity="0.9"/>
-    <circle cx="530" cy="40" r="1.2" opacity="0.7"/>
-    <circle cx="830" cy="60" r="1.5" opacity="0.8"/>
-    <circle cx="870" cy="190" r="1.2" opacity="0.6"/>
-    <circle cx="810" cy="310" r="1.7" opacity="0.8"/>
-    <circle cx="510" cy="330" r="1.2" opacity="0.5"/>
-    <circle cx="390" cy="290" r="1" opacity="0.6"/>
-    <path d="M460 106 V114 M456 110 H464" stroke="#f472b6" stroke-width="0.8" opacity="0.7"/>
-    <path d="M830 56 V64 M826 60 H834" stroke="#c084fc" stroke-width="0.8" opacity="0.8"/>
+  <!-- Red Team Ambient Glow -->
+  <rect x="420" y="0" width="520" height="370" rx="16" fill="url(#portal-aurora)"/>
+
+  <!-- Cyber Radar / Pentest Target Rings -->
+  <g class="radar-spin" opacity="0.18">
+    <circle cx="700" cy="185" r="145" stroke="#f43f5e" stroke-width="1" stroke-dasharray="10 8"/>
+    <circle cx="700" cy="185" r="115" stroke="#c084fc" stroke-width="1" stroke-dasharray="4 6"/>
+    <line x1="555" y1="185" x2="845" y2="185" stroke="#f43f5e" stroke-width="0.8"/>
+    <line x1="700" y1="40" x2="700" y2="330" stroke="#f43f5e" stroke-width="0.8"/>
   </g>
 
-  <!-- Left Side: Content & Identity -->
-  <g transform="translate(60, 0)">
-    <!-- Top Micro Tag -->
-    <g transform="translate(0, 52)">
-      <rect width="195" height="24" rx="12" fill="url(#pill-grad)" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-      <text x="14" y="16" fill="#c084fc" class="fira-mono" font-size="10.5" font-weight="600" letter-spacing="2">| SOFTWARE ENGINEER |</text>
+  <!-- LEFT SIDE: HACKER / CYBERSECURITY IDENTITY -->
+  <g transform="translate(56, 0)">
+    <!-- Category Micro Badge -->
+    <g transform="translate(0, 48)">
+      <rect width="275" height="26" rx="13" fill="#1b0826" stroke="#f43f5e" stroke-width="1" stroke-opacity="0.6"/>
+      <circle cx="14" cy="13" r="3.5" fill="#f43f5e" filter="url(#soft-neon)"/>
+      <text x="26" y="17" fill="#fce7f3" class="fira" font-size="10.5" font-weight="700" letter-spacing="2">CYBERSECURITY • PENTESTER</text>
     </g>
 
-    <!-- Main Name Title -->
-    <text x="0" y="125" fill="url(#text-grad)" class="sans-title" font-size="38" font-weight="800" letter-spacing="-0.5">
-      NGUYỄN VĂN MINH
+    <!-- Handle & Real Name -->
+    <text x="0" y="122" fill="url(#name-grad)" class="title-sans" font-size="38" font-weight="900" letter-spacing="-0.5">
+      SECRETZOT
+    </text>
+    <text x="248" y="122" fill="#a855f7" class="fira" font-size="20" font-weight="600" opacity="0.85">
+      :: 0xMinh
     </text>
 
-    <!-- Subtitle / Tagline inspired by LIVA -->
-    <text x="0" y="162" fill="#e2e8f0" class="sans-title" font-size="17" font-weight="300" letter-spacing="0.2">
-      I build digital systems that feel like <tspan fill="#f472b6" font-style="italic" font-weight="600">the future.</tspan>
+    <!-- Core Tagline / Philosophy -->
+    <text x="0" y="162" fill="#e2e8f0" class="title-sans" font-size="16.5" font-weight="400">
+      Exploiting vulnerabilities, analyzing binaries &amp; breaking boundaries.
     </text>
 
-    <text x="0" y="192" fill="#94a3b8" class="sans-title" font-size="13.5" font-weight="400">
-      Crafting intuitive experiences, robust backends &amp; clean architectures.
+    <!-- Sub-focus Description -->
+    <text x="0" y="190" fill="#94a3b8" class="fira" font-size="13">
+      [<tspan fill="#f43f5e" font-weight="700">PWN</tspan>] Binary Exploitation &nbsp;•&nbsp; 
+      [<tspan fill="#e879f9" font-weight="700">REV</tspan>] Reverse Engineering &nbsp;•&nbsp; 
+      [<tspan fill="#38bdf8" font-weight="700">WEB</tspan>] Web Security
     </text>
 
-    <!-- Interactive / Highlight Badges -->
+    <!-- Cyber Pillars Badges -->
     <g transform="translate(0, 222)">
+      <!-- Badge 1: Pwn -->
       <g transform="translate(0, 0)">
-        <rect width="118" height="30" rx="15" fill="#1e1338" stroke="#a855f7" stroke-width="1" stroke-opacity="0.5"/>
-        <circle cx="16" cy="15" r="4" fill="#a855f7" />
-        <text x="28" y="19" fill="#e9d5ff" class="sans-title" font-size="11.5" font-weight="600">Java • C# • JS</text>
+        <rect width="112" height="32" rx="8" fill="#200a16" stroke="#f43f5e" stroke-width="1.2" stroke-opacity="0.8"/>
+        <text x="14" y="21" fill="#fecdd3" class="fira" font-size="12" font-weight="700">⚡ PWN / BOF</text>
       </g>
 
-      <g transform="translate(128, 0)">
-        <rect width="148" height="30" rx="15" fill="#1e1338" stroke="#ec4899" stroke-width="1" stroke-opacity="0.4"/>
-        <circle cx="16" cy="15" r="4" fill="#ec4899" />
-        <text x="28" y="19" fill="#fce7f3" class="sans-title" font-size="11.5" font-weight="600">Clean Architecture</text>
+      <!-- Badge 2: Rev -->
+      <g transform="translate(122, 0)">
+        <rect width="138" height="32" rx="8" fill="#180a2b" stroke="#a855f7" stroke-width="1.2" stroke-opacity="0.8"/>
+        <text x="14" y="21" fill="#f3e8ff" class="fira" font-size="12" font-weight="700">🔍 REVERSE ENG</text>
       </g>
 
-      <g transform="translate(286, 0)">
-        <rect width="138" height="30" rx="15" fill="#1e1338" stroke="#8b5cf6" stroke-width="1" stroke-opacity="0.4"/>
-        <circle cx="16" cy="15" r="4" fill="#38bdf8" />
-        <text x="28" y="19" fill="#e0f2fe" class="sans-title" font-size="11.5" font-weight="600">@Minh1210 Profile</text>
+      <!-- Badge 3: Web Pentest -->
+      <g transform="translate(270, 0)">
+        <rect width="128" height="32" rx="8" fill="#081726" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8"/>
+        <text x="14" y="21" fill="#e0f2fe" class="fira" font-size="12" font-weight="700">🌐 WEB PENTEST</text>
       </g>
     </g>
 
-    <!-- Bottom Status Bar -->
+    <!-- Bottom Status Line -->
     <g transform="translate(0, 290)">
-      <rect width="365" height="34" rx="8" fill="#150d2a" fill-opacity="0.75" stroke="#7e22ce" stroke-width="0.8" stroke-opacity="0.4"/>
-      <circle cx="20" cy="17" r="4.5" fill="#10b981" class="online-dot"/>
-      <circle cx="20" cy="17" r="8" fill="#10b981" opacity="0.25"/>
-      <text x="35" y="21" fill="#cbd5e1" class="fira-mono" font-size="11" font-weight="500">
-        AVAILABLE FOR COLLABORATION &amp; PROJECTS
+      <rect width="395" height="34" rx="8" fill="#11071f" stroke="#7e22ce" stroke-width="0.8" stroke-opacity="0.5"/>
+      <circle cx="18" cy="17" r="4" fill="#10b981"/>
+      <circle cx="18" cy="17" r="8" fill="#10b981" opacity="0.3"/>
+      <text x="34" y="21" fill="#cbd5e1" class="fira" font-size="11" font-weight="600">
+        STATUS: ROOT ACCESS GRANTED • HUNTING 0-DAYS
       </text>
     </g>
   </g>
 
-  <!-- Right Side: The Mystic Cosmic Serpent Portal -->
-  <g transform="translate(685, 180)">
-    <!-- Celestial Portal Rings -->
-    <circle cx="0" cy="0" r="115" stroke="url(#snake-stroke)" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="6 4" class="glow-ring"/>
-    <circle cx="0" cy="0" r="100" stroke="url(#snake-stroke)" stroke-width="2.5" stroke-opacity="0.7" filter="url(#soft-glow)"/>
-    <circle cx="0" cy="0" r="82" fill="#120826" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- RIGHT SIDE: THE REALISTIC LETHAL BLACK VIPER (Inspired by reference images) -->
+  <g class="serpent-actor">
+    <!-- Crescent Moon Horn behind the Serpent Head (Echoing Image 3) -->
+    <path d="M 645 45 C 675 35, 715 45, 725 80 C 700 65, 665 65, 645 45 Z" fill="#ffffff" filter="url(#crimson-glow)" opacity="0.85"/>
+    <path d="M 645 45 C 625 35, 585 45, 575 80 C 600 65, 635 65, 645 45 Z" fill="#ffffff" filter="url(#crimson-glow)" opacity="0.85"/>
 
-    <!-- Orbital Energy Rings -->
-    <ellipse cx="0" cy="0" rx="128" ry="48" stroke="#e879f9" stroke-width="1.2" stroke-opacity="0.45" transform="rotate(-28)" filter="url(#soft-glow)"/>
-    <ellipse cx="0" cy="0" rx="138" ry="32" stroke="#818cf8" stroke-width="0.8" stroke-opacity="0.3" transform="rotate(35)"/>
-
-    <!-- The Mystic Serpent Artwork -->
-    <g class="floating-snake">
-      <!-- Shadow Glow -->
-      <path d="M 35 -75 
-               C 70 -55, 82 -10, 68 35 
-               C 55 78, 5 95, -35 80 
-               C -75 65, -88 20, -75 -25 
-               C -60 -70, -15 -85, 20 -70 
-               C 45 -58, 50 -25, 35 0 
-               C 22 20, -5 28, -25 12 
-               C -42 -2, -35 -28, -12 -38
-               C 10 -45, 28 -28, 22 -5
-               C 18 12, 0 16, -10 6" 
-            fill="none" 
-            stroke="#a855f7" 
-            stroke-width="16" 
-            stroke-linecap="round" 
-            stroke-opacity="0.2" 
-            filter="url(#neon-glow)"/>
-
-      <!-- Main Body -->
-      <path d="M 35 -75 
-               C 70 -55, 82 -10, 68 35 
-               C 55 78, 5 95, -35 80 
-               C -75 65, -88 20, -75 -25 
-               C -60 -70, -15 -85, 20 -70 
-               C 45 -58, 50 -25, 35 0 
-               C 22 20, -5 28, -25 12 
-               C -42 -2, -35 -28, -12 -38
-               C 10 -45, 28 -28, 22 -5
-               C 18 12, 0 16, -10 6" 
-            fill="none" 
-            stroke="url(#snake-grad)" 
-            stroke-width="7" 
-            stroke-linecap="round" 
-            stroke-linejoin="round"
-            filter="url(#soft-glow)"/>
-
-      <!-- High-Luminosity Spine -->
-      <path d="M 35 -75 
-               C 70 -55, 82 -10, 68 35 
-               C 55 78, 5 95, -35 80 
-               C -75 65, -88 20, -75 -25 
-               C -60 -70, -15 -85, 20 -70 
-               C 45 -58, 50 -25, 35 0 
-               C 22 20, -5 28, -25 12 
-               C -42 -2, -35 -28, -12 -38
-               C 10 -45, 28 -28, 22 -5
-               C 18 12, 0 16, -10 6" 
-            fill="none" 
-            stroke="#ffffff" 
-            stroke-width="2" 
-            stroke-linecap="round" 
-            stroke-opacity="0.9"/>
-
-      <!-- Serpent Head -->
-      <g transform="translate(35, -75)">
-        <path d="M -5 -3 Q -15 -18 -28 -22" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round"/>
-        <path d="M 5 -6 Q 12 -22 25 -30" fill="none" stroke="#e879f9" stroke-width="2" stroke-linecap="round"/>
-        
-        <path d="M -8 -8 C -4 -16, 12 -16, 16 -8 C 20 0, 10 10, 0 10 C -8 10, -12 0, -8 -8 Z" fill="#ffffff" filter="url(#soft-glow)"/>
-        
-        <circle cx="2" cy="-4" r="2.8" fill="#f43f5e" filter="url(#soft-glow)"/>
-        <circle cx="2" cy="-4" r="1.2" fill="#ffffff"/>
-
-        <path d="M 8 2 Q 22 8 32 2" fill="none" stroke="#f0abfc" stroke-width="1.8" stroke-linecap="round"/>
-        <path d="M 6 6 Q 16 18 24 24" fill="none" stroke="#c084fc" stroke-width="1.4" stroke-linecap="round"/>
-      </g>
-
-      <!-- Serpent Tail -->
-      <g transform="translate(-10, 6)">
-        <path d="M 0 0 Q -12 12 -6 22 Q 0 16 6 8 Z" fill="url(#snake-stroke)" opacity="0.8"/>
-      </g>
-
-      <!-- Scales Dots -->
-      <circle cx="70" cy="-30" r="1.5" fill="#ffffff" opacity="0.8"/>
-      <circle cx="60" cy="50" r="1.5" fill="#ffffff" opacity="0.8"/>
-      <circle cx="-15" cy="85" r="1.8" fill="#ffffff" opacity="0.9"/>
-      <circle cx="-75" cy="40" r="1.5" fill="#ffffff" opacity="0.8"/>
-      <circle cx="-50" cy="-60" r="1.8" fill="#ffffff" opacity="0.9"/>
-      <circle cx="2" cy="-73" r="1.5" fill="#ffffff" opacity="0.8"/>
+    <!-- Norse Runes / Cyber Glyphs around Serpent (Echoing Image 3) -->
+    <g class="fira" font-size="13" font-weight="700" fill="#f43f5e" opacity="0.85" filter="url(#soft-neon)">
+      <text x="590" y="165">ᛉ 0xCC</text>
+      <text x="805" y="125">ᚦ ROP</text>
+      <text x="790" y="260">ᚾ GDB</text>
+      <text x="570" y="280">IDA_PRO</text>
     </g>
 
-    <!-- Floating Orbs -->
-    <circle cx="78" cy="-55" r="4.5" fill="#ec4899" filter="url(#soft-glow)"/>
-    <circle cx="-85" cy="65" r="3.5" fill="#818cf8" filter="url(#soft-glow)"/>
-    <circle cx="-60" cy="-70" r="2.5" fill="#c084fc"/>
+    <!-- Deep Outer Shadow/Glow of the Snake Body -->
+    <path d="M 630 80
+             C 660 110, 750 120, 770 170
+             C 790 220, 740 260, 680 265
+             C 620 270, 580 220, 595 175
+             C 610 130, 680 135, 720 180
+             C 755 220, 740 290, 680 320
+             C 630 345, 590 320, 580 290"
+          fill="none" 
+          stroke="#e11d48" 
+          stroke-width="26" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          stroke-opacity="0.18" 
+          filter="url(#crimson-glow)"/>
+
+    <!-- Main Snake Body (Realistic Thick Muscle Curves) -->
+    <path d="M 630 80
+             C 660 110, 750 120, 770 170
+             C 790 220, 740 260, 680 265
+             C 620 270, 580 220, 595 175
+             C 610 130, 680 135, 720 180
+             C 755 220, 740 290, 680 320
+             C 630 345, 590 320, 580 290"
+          fill="none" 
+          stroke="url(#snake-skin)" 
+          stroke-width="19" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+
+    <!-- Serpent Scale Texture Rings (Cross-rib segments like real viper scales) -->
+    <path d="M 630 80
+             C 660 110, 750 120, 770 170
+             C 790 220, 740 260, 680 265
+             C 620 270, 580 220, 595 175
+             C 610 130, 680 135, 720 180
+             C 755 220, 740 290, 680 320
+             C 630 345, 590 320, 580 290"
+          fill="none" 
+          stroke="#381347" 
+          stroke-width="17" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          stroke-dasharray="3 5"/>
+
+    <!-- Cyber-Spine Luminescent Ridge (Electric pulse flowing through snake) -->
+    <path d="M 630 80
+             C 660 110, 750 120, 770 170
+             C 790 220, 740 260, 680 265
+             C 620 270, 580 220, 595 175
+             C 610 130, 680 135, 720 180
+             C 755 220, 740 290, 680 320
+             C 630 345, 590 320, 580 290"
+          fill="none" 
+          stroke="url(#cyber-spine)" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          class="cyber-pulse-line"
+          filter="url(#soft-neon)"/>
+
+    <!-- Segment Floating Halo Rings (Matching Image 3 surreal rings through snake body) -->
+    <ellipse cx="760" cy="180" rx="16" ry="7" stroke="#ffffff" stroke-width="1.8" fill="none" opacity="0.8" transform="rotate(-30 760 180)" filter="url(#soft-neon)"/>
+    <ellipse cx="610" cy="200" rx="15" ry="6" stroke="#ffffff" stroke-width="1.8" fill="none" opacity="0.8" transform="rotate(45 610 200)" filter="url(#soft-neon)"/>
+    <ellipse cx="660" cy="315" rx="14" ry="6" stroke="#f43f5e" stroke-width="1.6" fill="none" opacity="0.8" transform="rotate(-15 660 315)"/>
+
+    <!-- REALISTIC VIPER HEAD (Facing downward-left ready to strike) -->
+    <g transform="translate(630, 80) rotate(-135)">
+      <!-- Head Base Outline (Broad triangular viper jaw) -->
+      <path d="M 0 -18 
+               C 16 -16, 26 -6, 24 10 
+               C 22 22, 10 28, 0 32 
+               C -10 28, -22 22, -24 10 
+               C -26 -6, -16 -16, 0 -18 Z" 
+            fill="#12061e" 
+            stroke="#f43f5e" 
+            stroke-width="1.8"/>
+
+      <!-- Inner Head Crown Plates -->
+      <path d="M 0 -10 C 8 -8, 14 0, 12 12 C 6 18, 0 20, 0 20 C 0 20, -6 18, -12 12 C -14 0, -8 -8, 0 -10 Z" fill="#240e38"/>
+
+      <!-- Glowing Viper Eyes (Menacing Ruby Red) -->
+      <ellipse cx="11" cy="5" rx="3.5" ry="2" fill="#ef4444" class="viper-eye" transform="rotate(25 11 5)"/>
+      <ellipse cx="-11" cy="5" rx="3.5" ry="2" fill="#ef4444" class="viper-eye" transform="rotate(-25 -11 5)"/>
+      <!-- Slit Pupils -->
+      <line x1="11" y1="3" x2="11" y2="7" stroke="#ffffff" stroke-width="1"/>
+      <line x1="-11" y1="3" x2="-11" y2="7" stroke="#ffffff" stroke-width="1"/>
+
+      <!-- Venom Fangs -->
+      <path d="M 5 28 L 7 35 L 3 31 Z" fill="#ffffff" filter="url(#soft-neon)"/>
+      <path d="M -5 28 L -7 35 L -3 31 Z" fill="#ffffff" filter="url(#soft-neon)"/>
+
+      <!-- Flicking Forked Tongue -->
+      <g class="tongue-anim">
+        <path d="M 0 30 L 0 42 L 5 48 M 0 42 L -5 48" fill="none" stroke="#f43f5e" stroke-width="1.8" stroke-linecap="round"/>
+      </g>
+    </g>
+
+    <!-- Serpent Slender Tail Detail -->
+    <g transform="translate(580, 290)">
+      <path d="M 0 0 C -12 -15, -20 -35, -15 -50" fill="none" stroke="#f43f5e" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="-15" cy="-50" r="2.5" fill="#f43f5e" filter="url(#soft-neon)"/>
+    </g>
   </g>
 </svg>
