@@ -19,8 +19,6 @@
     <img src="https://img.shields.io/badge/WEB-Web%20Security-38bdf8?style=for-the-badge&logo=portswigger&logoColor=white" alt="WEB"/>
   </p>
 
-  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-
 </div>
 
 <br/>
@@ -46,10 +44,6 @@
   - Kiểm thử xâm nhập Web Application & RESTful API với **Burp Suite Professional**.
 
 <br/>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-</div>
 
 ## ⚡ Vũ Khí & Công Cụ • Security Arsenal
 
@@ -92,10 +86,6 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-</div>
-
 ## 🏴‍☠️ Research & Tactical Labs
 
 <div align="center">
@@ -132,8 +122,6 @@
 <br/>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
-
   <p>
     ☯️ <b>"Biết đủ sẽ hạnh phúc"</b><br/>
     <b>secretzot • Cybersecurity Specialist • Pwn • Rev • Web</b>
