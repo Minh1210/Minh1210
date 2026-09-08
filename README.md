@@ -1,15 +1,15 @@
 <div align="center">
 
-  <!-- CYBERSECURITY SERPENT HERO BANNER (Full Raw URL ensures 100% reliable rendering on GitHub) -->
+  <!-- CYBERSECURITY VIPER HERO BANNER -->
   <a href="https://github.com/Minh1210">
-    <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/banner.svg" alt="secretzot - No Money No Happy • Biết đủ sẽ hạnh phúc" width="100%" />
+    <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/banner.svg" alt="secretzot - Biết đủ sẽ hạnh phúc" width="100%" />
   </a>
 
   <br/><br/>
 
   <!-- DYNAMIC TYPING SLOGAN -->
   <a href="https://github.com/Minh1210">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=21&duration=2800&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=No+Money+No+Happy;%E2%98%AF+Bi%E1%BA%BFt+%C4%91%E1%BB%A7+s%E1%BA%BD+h%E1%BA%A1nh+ph%C3%BAc;PWN+%E2%80%A2+Binary+Exploitation+%26+Heap;REV+%E2%80%A2+Reverse+Engineering+%26+IDA;WEB+%E2%80%A2+Web+Pentest+%26+0-day+Research" alt="secretzot Philosophy" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=21&duration=3000&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=%E2%98%AF+Bi%E1%BA%BFt+%C4%91%E1%BB%A7+s%E1%BA%BD+h%E1%BA%A1nh+ph%C3%BAc;PWN+%E2%80%A2+Binary+Exploitation+%26+ROP;REV+%E2%80%A2+Reverse+Engineering+%26+IDA;WEB+%E2%80%A2+Web+Pentesting+%26+0-days" alt="secretzot Philosophy" />
   </a>
 
   <p align="center">
@@ -27,7 +27,7 @@
 
 <div align="center">
 
-> ### ⚡ *"No Money No Happy"* &nbsp;&nbsp;•&nbsp;&nbsp; ☯️ *"Biết đủ sẽ hạnh phúc"*
+> ### ☯️ *"Biết đủ sẽ hạnh phúc"*
 
 </div>
 
@@ -37,10 +37,10 @@
 
 - 💥 **PWN (Binary Exploitation)**:
   - Buffer Overflow, ROP Gadgets Chain, Ret2libc, Heap Exploitation (Fastbin, Tcache, Unsorted Bin), SROP, Format String, Shellcoding.
-  - Vượt các cơ chế bảo vệ: ASLR, NX, Stack Canary, PIE, RELRO.
+  - Kỹ thuật vượt cơ chế bảo mật: ASLR, NX, Stack Canary, PIE, RELRO.
 - 🔍 **REV (Reverse Engineering)**:
-  - Dịch ngược & phân tích tĩnh/động mã nhị phân ELF (Linux) và PE (Windows) trên **IDA Pro**, **Ghidra**, **Binary Ninja**, **x64dbg**.
-  - Phân tích thuật toán mã hóa tùy biến, giải mã unpack malware, bypass anti-debugging & anti-VM techniques.
+  - Dịch ngược & phân tích tĩnh/động mã nhị phân ELF và PE trên **IDA Pro**, **Ghidra**, **Binary Ninja**, **x64dbg**.
+  - Phân tích thuật toán mã hóa tùy biến, unpack malware, bypass anti-debugging & anti-VM.
 - 🌐 **WEB Security & Penetration Testing**:
   - Khai thác chuyên sâu theo chuẩn OWASP Top 10: Advanced SQL Injection, Blind SSRF, Insecure Deserialization, IDOR, Race Condition, Business Logic Flaws.
   - Kiểm thử xâm nhập Web Application & RESTful API với **Burp Suite Professional**.
@@ -135,7 +135,7 @@
   <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/snake-divider.svg" width="80%" alt="Serpent Divider" />
 
   <p>
-    ⚡ <b>"No Money No Happy"</b> &nbsp;&nbsp;|&nbsp;&nbsp; ☯️ <b>"Biết đủ sẽ hạnh phúc"</b><br/>
+    ☯️ <b>"Biết đủ sẽ hạnh phúc"</b><br/>
     <b>secretzot • Cybersecurity Specialist • Pwn • Rev • Web</b>
   </p>
 </div>
