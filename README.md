@@ -2,14 +2,14 @@
 
   <!-- CYBERSECURITY VIPER HERO BANNER -->
   <a href="https://github.com/Minh1210">
-    <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/banner.svg" alt="secretzot - Biết đủ sẽ hạnh phúc" width="100%" />
+    <img src="https://raw.githubusercontent.com/Minh1210/Minh1210/main/assets/banner_secretzot.svg" alt="secretzot - Biết đủ sẽ hạnh phúc" width="100%" />
   </a>
 
   <br/><br/>
 
   <!-- DYNAMIC TYPING SLOGAN -->
   <a href="https://github.com/Minh1210">
-    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=21&duration=3000&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=%E2%98%AF+Bi%E1%BA%BFt+%C4%91%E1%BB%A7+s%E1%BA%BD+h%E1%BA%A1nh+ph%C3%BAc;PWN+%E2%80%A2+Binary+Exploitation+%26+ROP;REV+%E2%80%A2+Reverse+Engineering+%26+IDA;WEB+%E2%80%A2+Web+Pentesting+%26+0-days" alt="secretzot Philosophy" />
+    <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=800&size=21&duration=3000&pause=1000&color=F43F5E&center=true&vCenter=true&multiline=false&width=650&lines=Bi%E1%BA%BFt+%C4%91%E1%BB%A7+s%E1%BA%BD+h%E1%BA%A1nh+ph%C3%BAc;PWN+%E2%80%A2+Binary+Exploitation+%26+ROP;REV+%E2%80%A2+Reverse+Engineering+%26+IDA;WEB+%E2%80%A2+Web+Pentesting+%26+0-days" alt="secretzot Philosophy" />
   </a>
 
   <p align="center">
@@ -18,14 +18,6 @@
     <img src="https://img.shields.io/badge/REV-Reverse%20Engineering-a855f7?style=for-the-badge&logo=nsa&logoColor=white" alt="REV"/>
     <img src="https://img.shields.io/badge/WEB-Web%20Security-38bdf8?style=for-the-badge&logo=portswigger&logoColor=white" alt="WEB"/>
   </p>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-> ### ☯️ *"Biết đủ sẽ hạnh phúc"*
 
 </div>
 
@@ -123,7 +115,7 @@
 
 <div align="center">
   <p>
-    ☯️ <b>"Biết đủ sẽ hạnh phúc"</b><br/>
+    <b>"Biết đủ sẽ hạnh phúc"</b><br/>
     <b>secretzot • Cybersecurity Specialist • Pwn • Rev • Web</b>
   </p>
 </div>
