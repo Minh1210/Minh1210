@@ -110,12 +110,3 @@
     </tr>
   </table>
 </div>
-
-<br/>
-
-<div align="center">
-  <p>
-    <b>"Biết đủ sẽ hạnh phúc"</b><br/>
-    <b>secretzot • Cybersecurity Specialist • Pwn • Rev • Web</b>
-  </p>
-</div>
