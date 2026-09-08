@@ -1,0 +1,35 @@
+<svg width="100%" height="24" viewBox="0 0 800 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="div-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="div-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#a855f7" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="div-glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Left line -->
+  <line x1="30" y1="12" x2="370" y2="12" stroke="url(#div-left)" stroke-width="1.2" filter="url(#div-glow)"/>
+
+  <!-- Center Mystic Serpent Knot -->
+  <g transform="translate(400, 12)" filter="url(#div-glow)">
+    <circle cx="0" cy="0" r="9" fill="#120924" stroke="#d946ef" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="4" fill="#a855f7"/>
+    <!-- Serpent S knot in center -->
+    <path d="M-3 -4 C-1 -6, 2 -4, 2 -2 C2 0, -2 0, -2 2 C-2 4, 1 6, 3 4" fill="none" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Right line -->
+  <line x1="430" y1="12" x2="770" y2="12" stroke="url(#div-right)" stroke-width="1.2" filter="url(#div-glow)"/>
+</svg>
